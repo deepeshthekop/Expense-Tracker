@@ -13,8 +13,6 @@
 9. [Software Engineering Model](#software-engineering-model)
 10. [Setup and Installation](#setup-and-installation)
 11. [Usage](#usage)
-12. [Contributing](#contributing)
-13. [License](#license)
 
 ## Project Overview
 
