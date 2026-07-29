@@ -88,6 +88,7 @@ function Navbar() {
 
         <Flex gapX="5" align="center">
           <Button
+            data-testid="theme-toggle"
             variant="ghost"
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             className="p-2"
