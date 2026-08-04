@@ -101,7 +101,7 @@ function Navbar() {
           </Button>
 
           <DropdownMenu.Root>
-            <DropdownMenu.Trigger>
+            <DropdownMenu.Trigger data-testid="user-menu-dropdown">
               <Avatar
                 src={session?.user?.image || ""}
                 fallback="?"
