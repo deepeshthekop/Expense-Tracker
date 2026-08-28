@@ -28,7 +28,8 @@ function DeleteBudgetButton({
         },
       })
       .then(() => {
-        router.push("/main/budgets");
+        router.replace("/main/budgets");
+        router.refresh();
       })
       .catch(() => toast.error("An unexpected error occured."))
       .finally(() => setIsLoading(false));
